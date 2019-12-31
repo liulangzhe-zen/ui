@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Ui_MenuItemLayout">
+        
+        <attr name="title_text" format="string"/>
+        <!--   展示图片还是文字     false 文字  true 图片  -->
+        <attr name="left_whetherShow" format="boolean"/>
+        <attr name="left_title" format="string"/>
+        <attr name="left_img" format="reference"/>
+
+        <!--   展示图片还是文字     false 文字  true 图片  -->
+        <attr name="right_whetherShow" format="boolean"/>
+        <attr name="right_title" format="string"/>
+        <attr name="right_img" format="reference"/>
+
+        <!--是否展示提醒-->
+        <attr name="remind" format="boolean"/>
+        <attr name="remind_text" format="string"/>
+
+        <!-- 展示上面阴影都大小-->
+        <attr name="divide_line_style" format="integer"/>
+
+        <!-- 是否展示竖直的线-->
+        <attr name="divide_vertical" format="boolean"/>
+
+        
+    </declare-styleable>
+    
+    
+    
+    
+
+    <declare-styleable name="Ui_LottieTabView">
+        <attr name="text_selected_color" format="color"/>
+        <attr name="text_normal_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="lottie_path" format="string"/>
+        <attr name="icon_normal" format="reference"/>
+        <attr name="tab_selected" format="boolean"/>
+        <attr name="tab_name" format="string"/>
+
+
+
+        <attr name="top_bulge" format="boolean"/>
+    </declare-styleable>
+
+
+</resources>
